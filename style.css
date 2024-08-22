@@ -1,0 +1,45 @@
+* {
+    transition: all .2s linear;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-decoration: none;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+th {
+    background-color: #CABCBC;
+}
+
+td {
+    background-color: #E4D9D9;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 7px;
+    margin-right: 3px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+button {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(55, 184, 55);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(57, 216, 57);
+}
